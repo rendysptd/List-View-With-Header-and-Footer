@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, ListView, Image, Text } from 'react-native';
+import { StyleSheet, View, ListView, Image, Text } 
+from 'react-native';
 import data from './sales.json';
 
 const basketIcon = require('./images/basket.png');
@@ -55,10 +56,10 @@ const styles = StyleSheet.create({
   title: {
     backgroundColor: '#0f1b29',
     color: '#fff',
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: 'bold',
-    padding: 10,
-    paddingTop: 40,
+    padding: 15,
+    paddingTop: 15,
     textAlign: 'center',
   },
   row: {
