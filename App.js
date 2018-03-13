@@ -13,7 +13,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.containerMain}>
         <Header headerText="Header"/>
-        <Sales />
+        <MainApp/>
         <Footer footerText="Footer"/>
       </View>
     );
