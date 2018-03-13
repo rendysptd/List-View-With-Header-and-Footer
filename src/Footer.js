@@ -14,12 +14,11 @@ const Footer = (props) => {
 };
 const styles = {
     backFooter: {
-      backgroundColor: '#E91E63',
+      backgroundColor: '#1cad61',
       justifyContent: 'center',
       alignItems: 'center',
       height: 60,
       position: 'relative',
-      marginTop: 10
     },
     textStyle: {
       fontSize: 25,
@@ -27,4 +26,4 @@ const styles = {
       textAlign: 'center'
     }
 }
-export default Header;
+export default Footer;
